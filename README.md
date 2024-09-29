@@ -37,4 +37,4 @@ Backend: Contains all Spring Boot server-side code and database logic.
 6. Create a database and update file "application.properties" with your database credentials
 7. Start the Spring Boot application 
 8. Start the frontend development server: npm start
-9. Open the application in your browser: http://localhost:3000 
+9. Open the application in your browser: http://localhost:4200 
