@@ -37,4 +37,15 @@ Backend: Contains all Spring Boot server-side code and database logic.
 6. Create a database and update file "application.properties" with your database credentials
 7. Start the Spring Boot application 
 8. Start the frontend development server: npm start
-9. Open the application in your browser: http://localhost:4200 
+9. Open the application in your browser: http://localhost:4200
+
+## PostgreSQL Connection:
+You will find this connection settings at directory "src/main/resources/application.properties" into the spring project.
+
+spring.datasource.url=jdbc:postgresql://localhost:5432/database \
+spring.datasource.username=username \
+spring.datasource.password=password 
+
+Replace that connection properties("database", "username", "password") with your own database credentials for PostgreSQL.
+
+**Note: At the root directory of the spring project you will find file "cake_blog_create_table_script.txt" that include creating table script. Be sure that you will run first this script into PostgreSQL before starting using this application.**
